@@ -23,6 +23,15 @@ is in range at the station, still in range at the shops, and still in range
 outside your front door. That is the only thing GhostTag grades, and it is
 careful never to claim more than it measured.
 
+> **New: works with GhostESP boards, no flashing needed.**
+> If your board already runs [GhostESP: Revival](https://github.com/GhostESP-Revival/GhostESP),
+> such as the **Rabbit-Labs Poltergeist**, GhostTag now uses it as-is: it starts
+> GhostESP's own AirTag scanner and reads the results, so you keep GhostESP and
+> all its features. No settings to change, and the UART pins (13/14 or 15/16)
+> are found automatically. In this mode GhostTag detects AirTags / Find My
+> only. Tested on a Rabbit-Labs Poltergeist with GhostESP 2.2 and Momentum.
+> Details: [Already running GhostESP?](#already-running-ghostesp-no-flashing-needed)
+
 ---
 
 ## Two ways to run it
